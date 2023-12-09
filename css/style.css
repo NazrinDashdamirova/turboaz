@@ -1,0 +1,124 @@
+#head-red{
+    width: 100%;
+    background: rgb(180, 23, 23);
+}
+
+#logo{
+    font-weight: 800;
+    font-family: 'Mukta', sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container>.container-menu{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#menu{text-align: center;}
+#menu>li {
+    margin-bottom: 5px;
+}
+#menu>li>a  {
+    font:14px 'Roboto'sans-serif;
+    color: #fff;
+
+}
+
+.label-new{   
+    background: #77c81d;
+    border-radius: 10px;
+    padding: 4px;
+    color: #fff;      
+    margin-left: 5px;
+}
+.hidingNav {
+    background: #fff;
+    width: 190px;
+    text-align: left;
+    border-radius: 10px;
+    
+} 
+
+.hidingNav>li>a{
+    font-size: 16px;
+    color: #050505;
+    display: block;
+    text-align: left;
+   
+
+}
+    
+   
+.hidingNav>li{
+    background: #fff;
+    width: 190px;
+    display: none;
+    text-align: left; 
+    border-radius: 5px;
+}
+ul li:hover>ul li{display: block;}
+
+.moto{position: relative;}
+.yeniElan-btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #7ed321;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.container-menu-inner {
+    text-align: center;
+}
+
+ 
+@media only screen and (min-width: 768px) {
+.container { 
+    max-width: 960px;
+    margin: auto;
+    height: 60px;
+}
+.container-menu-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 8px;
+}
+#logo{
+    font-weight: 800;
+    font-family: 'Mukta', sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+#menu{display: flex; padding: 12px 0 0 0; }
+
+
+    
+#menu li {padding: 0 22px;}
+
+
+#menu>ul>li>ul{margin: auto;}
+
+
+.hidingNav>li:hover{background-color: #b4a0a0;color: #fff;}
+#menu>li>a:hover  {color: rgb(226, 192, 192);}
+.yeniElan-btn:hover { background-color: #69c506;}
+
+
+
+}
+
+
+
